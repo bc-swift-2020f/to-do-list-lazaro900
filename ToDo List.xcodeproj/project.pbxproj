@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1D5D2942520501B006D6B36 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D5D2932520501A006D6B36 /* ToDoItem.swift */; };
 		F1F4DFB9251E658C0054EAE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4DFB8251E658C0054EAE1 /* AppDelegate.swift */; };
 		F1F4DFBB251E658C0054EAE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4DFBA251E658C0054EAE1 /* SceneDelegate.swift */; };
 		F1F4DFBD251E658C0054EAE1 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4DFBC251E658C0054EAE1 /* ToDoListViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1D5D2932520501A006D6B36 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		F1F4DFB5251E658C0054EAE1 /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F4DFB8251E658C0054EAE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1F4DFBA251E658C0054EAE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				F1F4DFB8251E658C0054EAE1 /* AppDelegate.swift */,
 				F1F4DFBA251E658C0054EAE1 /* SceneDelegate.swift */,
+				F1D5D2932520501A006D6B36 /* ToDoItem.swift */,
 				F1F4DFBC251E658C0054EAE1 /* ToDoListViewController.swift */,
 				F1F4E03B251E98AC0054EAE1 /* ToDoDetailViewController.swift */,
 				F1F4DFBE251E658C0054EAE1 /* Main.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				F1F4DFBD251E658C0054EAE1 /* ToDoListViewController.swift in Sources */,
 				F1F4E03C251E98AC0054EAE1 /* ToDoDetailViewController.swift in Sources */,
+				F1D5D2942520501B006D6B36 /* ToDoItem.swift in Sources */,
 				F1F4DFB9251E658C0054EAE1 /* AppDelegate.swift in Sources */,
 				F1F4DFBB251E658C0054EAE1 /* SceneDelegate.swift in Sources */,
 			);
