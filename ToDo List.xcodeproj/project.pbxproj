@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F13DEA2D252919930067DEC0 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DEA2C252919930067DEC0 /* ListTableViewCell.swift */; };
 		F1D5D2942520501B006D6B36 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D5D2932520501A006D6B36 /* ToDoItem.swift */; };
 		F1F4DFB9251E658C0054EAE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4DFB8251E658C0054EAE1 /* AppDelegate.swift */; };
 		F1F4DFBB251E658C0054EAE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4DFBA251E658C0054EAE1 /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F13DEA2C252919930067DEC0 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		F1D5D2932520501A006D6B36 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		F1F4DFB5251E658C0054EAE1 /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F4DFB8251E658C0054EAE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				F1D5D2932520501A006D6B36 /* ToDoItem.swift */,
 				F1F4DFBC251E658C0054EAE1 /* ToDoListViewController.swift */,
 				F1F4E03B251E98AC0054EAE1 /* ToDoDetailViewController.swift */,
+				F13DEA2C252919930067DEC0 /* ListTableViewCell.swift */,
 				F1F4DFBE251E658C0054EAE1 /* Main.storyboard */,
 				F1F4DFC1251E65900054EAE1 /* Assets.xcassets */,
 				F1F4DFC3251E65900054EAE1 /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 				F1D5D2942520501B006D6B36 /* ToDoItem.swift in Sources */,
 				F1F4DFB9251E658C0054EAE1 /* AppDelegate.swift in Sources */,
 				F1F4DFBB251E658C0054EAE1 /* SceneDelegate.swift in Sources */,
+				F13DEA2D252919930067DEC0 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
