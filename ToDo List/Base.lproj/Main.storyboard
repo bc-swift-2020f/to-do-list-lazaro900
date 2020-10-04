@@ -103,10 +103,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="prS-bJ-nfO">
-                                                    <rect key="frame" x="20" y="15" width="374" height="34"/>
+                                                    <rect key="frame" x="20" y="11" width="374" height="34"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <action selector="textFieldEditingChanged:" destination="9DF-Vq-iZm" eventType="editingChanged" id="vkt-4w-Aom"/>
+                                                    </connections>
                                                 </textField>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -205,6 +208,7 @@
                         <outlet property="nameField" destination="prS-bJ-nfO" id="0Wx-5y-eAO"/>
                         <outlet property="noteView" destination="CXt-yH-mVr" id="PlA-cc-cqo"/>
                         <outlet property="reminderSwitch" destination="QHv-87-b3x" id="F02-ux-XWY"/>
+                        <outlet property="saveBarButton" destination="uEY-oE-Puw" id="qyd-y3-gdW"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VeB-qt-0H1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
