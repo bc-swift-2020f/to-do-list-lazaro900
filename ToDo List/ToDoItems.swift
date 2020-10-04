@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UserNotifications
 
 class ToDoItems {
     var itemArray: [ToDoItem] = []
@@ -39,6 +40,20 @@ class ToDoItems {
         
             completed()
         }
+    
+     func setNotification() {
+        guard itemArray.count > 0 else {
+            return
+        }
+        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+        
+        for index in 0..<itemArray.count {
+            if itemArray[index].reminderSet {
+                let item = itemArray[index]
+                itemArray[index].notificationID = LocalNotificationManager.setCalendarNotifications(title: item.name, subtitle: "", body: item.notes, badgeNumber: nil, sound: .default, date: item.date)
+            }
+        }
+    }
     
     
 }
